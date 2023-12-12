@@ -1,0 +1,17 @@
+<HW1,1><NR><RC10,20><LT10><BX945,570>
+<QRV2><RC670,370><F68><QR>{www.bocasystems.com}
+<RL>
+<RTF10,8><RC870,30>Thank you for visiting BOCA SYSTEMS!
+<RTF7,8><RC920,70>BOCA produces
+<RTF8,8><RC650,70>over 1 billion
+<RTF7,8><RC360,70>tickets each year
+<RTF7,8><RC920,100>Please contact us to learn more about the
+<RTF7,8><RC920,130>financial and operational benefits you will
+<RTF7,8><RC920,160>receive with BOCA stock,including
+<RTF8,8><RC250,160>free
+<RTF7,8><RC920,190>print head replacements:
+<RTF8,8><RC920,200>
+<RTF8,8><RC920,240>Louis Rosner   - louis@bocasystems.com
+<RTF8,8><RC920,280>Michael Maszon - mmaszon@bocasystems.com
+<RC920,530><RTF10,8>www.bocasystems.com
+<SP250,290><HW3,3><SD2><LO1><p>

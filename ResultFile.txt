@@ -1,0 +1,20 @@
+Grep -n "StatusReturned" C:\Data\BocaSystems\Projects\android_sample\BocaLibrary\sdk\src\main\java\bocasystems\com\sdk\BocaSystemsSDK.java
+260:    static String StatusReturned = "";              //return string from printer    //4.0 made it static
+450:            StatusReturned = StatusReturned + msg + "\r\n";
+1048:        return (StatusReturned);
+1054:        StatusReturned = "";
+1068:            StatusReturned = StatusReturned + "Starting ConnectedThreadUSB\r\n";
+1108:            StatusReturned += "Starting Read Loop\r\n";
+1126:            StatusReturned += "Exiting Read Thread\r\n";
+1361:        return (StatusReturned);
+1366:        StatusReturned = "";
+1898:        return (StatusReturned);
+1903:        StatusReturned = "";
+Grep -n "StatusReturned" C:\Data\BocaSystems\Projects\android_sample\BocaLibrary\app\src\main\java\com\bocasystems\com\sample\MainActivity.java
+Grep -n "StatusReturned" C:\Data\BocaSystems\Projects\android_sample\BocaLibrary\sdk\build\generated\source\buildConfig\release\bocasystems\com\sdk\BuildConfig.java
+Grep -n "StatusReturned" C:\Data\BocaSystems\Projects\android_sample\BocaLibrary\app\build\generated\source\buildConfig\release\com\bocasystems\com\sample\BuildConfig.java
+Grep -n "StatusReturned" C:\Data\BocaSystems\Projects\android_sample\BocaLibrary\sdk\src\androidTest\java\bocasystems\com\sdk\ExampleInstrumentedTest.java
+Grep -n "StatusReturned" C:\Data\BocaSystems\Projects\android_sample\BocaLibrary\sdk\src\test\java\bocasystems\com\sdk\ExampleUnitTest.java
+Grep -n "StatusReturned" C:\Data\BocaSystems\Projects\android_sample\BocaLibrary\app\src\main\java\com\bocasystems\com\sample\FilePicker.java
+Grep -n "StatusReturned" C:\Data\BocaSystems\Projects\android_sample\BocaLibrary\app\src\test\java\com\bocasystems\com\sample\ExampleUnitTest.java
+Grep -n "StatusReturned" C:\Data\BocaSystems\Projects\android_sample\BocaLibrary\app\src\androidTest\java\com\bocasystems\com\sample\ApplicationTest.java

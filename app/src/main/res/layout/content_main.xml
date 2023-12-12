@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.bocasystems.com.sample.MainActivity$PlaceholderFragment"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="0dp"
+        android:text="@string/Screen_Title"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/btnHelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:text="@string/String_Help"  />
+
+    <Button
+        android:id="@+id/btnWIFI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/Button_Con_WIFI" />
+
+    <Button
+        android:id="@+id/btnUSB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/Button_Con_USB" />
+
+    <Button
+        android:id="@+id/btnConnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="400dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/Button_Scan" />
+
+    <ListView
+        android:id="@+id/lstBTDevices"
+        android:layout_width="200dp"
+        android:layout_height="700dp"
+        android:layout_marginStart="570dp"
+        android:layout_marginTop="20dp" >
+    </ListView>
+
+    <EditText
+        android:id="@+id/FGLText"
+        android:layout_width="550dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:hint="@string/String_TEST"
+        android:inputType="text" >
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnTransmitFGL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="150dp"
+        android:text="@string/Button_FGL" />
+
+    <Button
+        android:id="@+id/btnTestTicket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="150dp"
+        android:text="@string/Button_Print_TT" />
+
+    <Button
+        android:id="@+id/btnPrintCut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="340dp"
+        android:layout_marginTop="150dp"
+        android:text="@string/PrintC" />
+
+    <Button
+        android:id="@+id/btnPrintNoCut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="440dp"
+        android:layout_marginTop="150dp"
+        android:text="@string/PrintNC" />
+
+    <TextView
+        android:id="@+id/textFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="202dp"
+        android:text="@string/String_File"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupFile"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="200dp"
+        android:checkedButton="@+id/rbtnBMP"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rbtnBMP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/String_Image" />
+
+        <RadioButton
+            android:id="@+id/rbtnPDF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/String_Doc" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnSelectFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="230dp"
+        android:text="@string/Button_Sel_File" />
+
+    <Button
+        android:id="@+id/btnDownloadLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="215dp"
+        android:layout_marginTop="230dp"
+        android:text="@string/Button_DLogo" />
+
+    <Button
+        android:id="@+id/btnPrintLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="360dp"
+        android:layout_marginTop="230dp"
+        android:text="@string/Button_PLogo" />
+
+    <TextView
+        android:id="@+id/LogoView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="470dp"
+        android:layout_marginTop="220dp"
+        android:text="@string/String_LOGO"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/LogoText"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="480dp"
+        android:layout_marginTop="235dp"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textScale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="282dp"
+        android:text="@string/String_Scale"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <RadioGroup
+        android:id="@+id/radioFillBMP"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="280dp"
+        android:checkedButton="@+id/rbtnActual"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbtnActual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Actual" />
+
+        <RadioButton
+            android:id="@+id/rbtnScale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Scale" />
+
+        <WebView
+            android:id="@+id/BocaView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textDither"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="340dp"
+        android:layout_marginTop="282dp"
+        android:text="@string/String_Dither"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupDither"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="440dp"
+        android:layout_marginTop="280dp"
+        android:checkedButton="@+id/rbtnDitherOn"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rbtnDitherOn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Button_D1" />
+
+        <RadioButton
+            android:id="@+id/rbtnDitherOff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Button_D2" />
+    </RadioGroup>
+
+     <TextView
+        android:id="@+id/textPath"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="307dp"
+        android:text="@string/String_PP"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupPath"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="305dp"
+        android:checkedButton="@+id/rbtnPath1"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rbtnPath1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Button_P1" />
+
+        <RadioButton
+            android:id="@+id/rbtnPath2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Button_P2" />
+
+        <RadioButton
+            android:id="@+id/rbtnPath3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Button_P3" />
+
+        <RadioButton
+            android:id="@+id/rbtnPath4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Button_P4" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="335dp"
+        android:text="@string/String_SIZE"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <SeekBar
+        android:id="@+id/sbarTicketSize"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="365dp"
+        android:max="9" />
+
+    <TextView
+        android:id="@+id/textSizeSelected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="430dp"
+        android:layout_marginTop="360dp"
+        android:text="@string/Ticket_Con_L" />
+
+    <TextView
+        android:id="@+id/textViewDPI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="390dp"
+        android:text="@string/String_DPI"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupDPI"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="387dp"
+        android:checkedButton="@+id/rbtn300DPI"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rbtn200DPI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Button_Res2" />
+
+        <RadioButton
+            android:id="@+id/rbtn300DPI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Button_Res3" />
+
+        <RadioButton
+            android:id="@+id/rbtn600DPI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Button_Res6" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textViewOR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="420dp"
+        android:text="@string/String_OR"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+    <RadioGroup
+        android:id="@+id/radioGroupOR"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="417dp"
+        android:checkedButton="@+id/rbtnLandscape"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rbtnLandscape"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Button_OrL" />
+
+        <RadioButton
+            android:id="@+id/rbtnPortrait"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Button_OrP" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="600dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="450dp" />
+
+    <Button
+        android:id="@+id/btnClearMemory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="640dp"
+        android:text="@string/Button_Memory" />
+
+    <TextView
+        android:id="@+id/textViewStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="310dp"
+        android:layout_marginTop="650dp"
+        android:text="@string/String_STATUS"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textConnectMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/String_Connecting"
+        android:background="#000"
+        android:textAppearance="?android:attr/textAppearanceLargeInverse" />
+
+    <TextView
+        android:id="@+id/PrinterStatus"
+        android:layout_width="600dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="690dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="@string/Button_Clr" />
+
+</RelativeLayout>
