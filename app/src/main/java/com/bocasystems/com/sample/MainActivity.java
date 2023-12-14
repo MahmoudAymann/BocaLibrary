@@ -577,15 +577,8 @@ public class MainActivity extends Activity
             public void onClick(View view) {
 //                try
 //                {
-                    CharSequence msg = "";
-                    msg = FGL_Text.getText();
-                    if (0 == msg.length())
-                    {
-                        msg = "<S1>";
-                        FGL_Text.setText(msg);
-                    }
                     String start = "<RC100,100><F11>";
-                    String txt = "Hello" + "\n" + "mahmoud";
+                    String txt = "Hello mahmoud";
                     String end = "<p>";
                     boca.SendString(start + txt + end);
 //                     String status = boca.ReadPrinter();
